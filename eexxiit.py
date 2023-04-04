@@ -61,7 +61,7 @@ usernames = [follower.username for follower in followers]
 data = {"users": usernames}
 
 # Save the dictionary to a JSON file
-with open("followers.json", "w") as file:
+with open("users.json", "w") as file:
     json.dump(data, file)
 
 # Print the success message
